@@ -236,12 +236,12 @@
          rotations as the default behavior. -->
     <bool name="config_allowAllRotations">true</bool>
 
-    <!-- Override the default detection behavior for the framework method		
-         android.view.ViewConfiguration#hasPermanentMenuKey().		
-         Valid settings are:		
-         0 - No change. Use the default autodetection behavior.		
-         1 - The device DOES have a permanent menu key; ignore autodetection.		
-         2 - The device DOES NOT have a permanent menu key; ignore autodetection. -->		
+    <!-- Override the default detection behavior for the framework method
+         android.view.ViewConfiguration#hasPermanentMenuKey().
+         Valid settings are:
+         0 - No change. Use the default autodetection behavior.
+         1 - The device DOES have a permanent menu key; ignore autodetection.
+         2 - The device DOES NOT have a permanent menu key; ignore autodetection. -->
     <integer name="config_overrideHasPermanentMenuKey">2</integer>
 
     <!-- Enable blur support -->
@@ -261,9 +261,12 @@
     <!-- Whether the display blanks itself when going from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
 
+    <!-- Disable rounded corners on windows to improve graphics performance -->
+    <bool name="config_supportsRoundedCornersOnWindows">false</bool>
+
      <!-- Specify custom blanking delay of the display -->
     <integer name="config_screen_off_delay">0</integer>
-    
+
     <!-- The list of components which should be automatically disabled for a specific device. -->
     <string-array name="config_deviceDisabledComponents" translatable="false">
         <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
