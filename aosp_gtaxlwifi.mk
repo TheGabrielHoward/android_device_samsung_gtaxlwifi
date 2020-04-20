@@ -21,8 +21,13 @@ $(call inherit-product, device/samsung/gtaxlwifi/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-# Inherit some common PE stuff.
+# Inherit some common  Evolution X stuff.
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES_EVO := true
 $(call inherit-product, vendor/aosp/config/common_full_tablet_wifionly.mk)
+
+# Gapps
+TARGET_GAPPS_ARCH := arm64
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_gtaxlwifi
