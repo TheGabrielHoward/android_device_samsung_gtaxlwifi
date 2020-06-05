@@ -34,7 +34,7 @@ PRODUCT_NAME := aosp_gtaxlwifi
 PRODUCT_DEVICE := gtaxlwifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T580
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MANUFACTURER := Samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
@@ -45,9 +45,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Xiaomi/sagit/sagit:7.1.1/NMF26X/V8.2.17.0.NCACNEC:user/release-keys
-
-# PixelExperience stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
 
 TARGET_VENDOR := Samsung
