@@ -1,7 +1,7 @@
 [
   {
     "remote": "thegabrielhoward",
-    "repository": "vendor_samsung_gtaxlwifi",
+    "repository": "vendor_samsung",
     "target_path": "vendor/samsung/gtaxlwifi",
     "branch": "gtaxlwifi-lineage-17.1_64"
   },
@@ -9,7 +9,7 @@
     "remote": "followmsi",
     "repository": "android_kernel_samsung_exynos7870",
     "target_path": "kernel/samsung/exynos7870",
-    "branch": "10-m105_2020-04-07"
+    "branch": "10-m105"
   },
   {
     "remote": "followmsi",
